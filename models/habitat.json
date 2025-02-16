@@ -1,0 +1,12 @@
+{
+  "type": "micro",
+  "wake_word": "Habitat",
+  "author": "Max Lyth",
+  "website": "https://www.kevinahrendt.com/",
+  "model": "./habitat.tflite",
+  "version": 1,
+  "micro": {
+    "probability_cutoff": 0.66,
+    "sliding_window_average_size": 10
+  }
+}
